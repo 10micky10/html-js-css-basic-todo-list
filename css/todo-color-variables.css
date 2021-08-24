@@ -1,0 +1,22 @@
+/*Solid Colors*/
+:root {
+  --light-gray-color: #eee;
+  --gray-color: rgb(117, 117, 117);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
+  --light-green-color: rgb(57, 212, 103);
+  --light-green-color2: rgb(41, 167, 79);
+  --light-blue-color: rgb(57, 106, 212);
+  --light-blue-color2: rgb(40, 84, 180);
+  --light-red-color: rgb(241, 64, 64);
+  --light-red-color2: rgb(211, 40, 40);
+  --dark-red-color: rgb(163, 27, 27);
+  --dark-blue-color: rgb(27, 63, 139);
+  --dark-green-color: rgb(21, 122, 52);
+}
+
+/*Transparent Colors*/
+:root {
+  --black-color-transparent: rgba(0, 0, 0, 0.5);
+  --black-color-transparent2: rgba(0, 0, 0, 0.2);
+}

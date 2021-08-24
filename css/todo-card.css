@@ -1,0 +1,32 @@
+.card {
+  background-color: white;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px var(--black-color-transparent);
+  border: none;
+  flex-direction: column;
+  padding: 15px 30px;
+}
+
+.card-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn.delete {
+  margin: 30px 0px 5px 0px;
+  color: var(--white-color);
+  background-color: var(--light-red-color);
+}
+
+.btn.delete:hover {
+  background-color: var(--light-red-color2);
+}
+
+.btn.delete:active {
+  background-color: var(--dark-red-color);
+}
+
+h3 {
+  color: var(--dark-blue-color);
+}

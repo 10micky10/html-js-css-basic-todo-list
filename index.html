@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
+  <title>Todo List Miguel Aguilar</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar flex">
+      <div class="flex nav-item">
+        <a href="#" class="nav-text">
+          <i class="fas fa-bars"></i>
+          Task App
+        </a>
+      </div>
+      <div class="flex nav-item">
+        <img src="./image/profile.jpg" alt="face" class="profile-image" />
+        <p class="nav-text">
+          Profile
+          <i class="fas fa-ellipsis-v"></i>
+        </p>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="task-container" id="tasks-container">
+    </div>
+    <button id="btn-principal" class="btn-add-task flex">
+      <p>
+        <i class="fas fa-plus-circle"></i>
+        Add Task
+      </p>
+    </button>
+    <button id="download-csv" class="btn-add-task btn-csv flex" onclick="downloadCSV()">
+      <p>
+        CSV
+        <i class="fas fa-file-download"></i>
+      </p>
+    </button>
+    <div id="form-container">
+    </div>
+  </main>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

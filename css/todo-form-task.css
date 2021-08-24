@@ -1,0 +1,46 @@
+.form-task {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 30px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0px 4px 8px var(--black-color-transparent);
+  z-index: 1;
+}
+
+.form-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 100%;
+  margin: 8px 0px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 4px;
+}
+
+.task-form-tags{
+  width: 100%;
+  resize: none;
+  margin: 8px 0px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid rgb(221, 220, 220);
+  border-radius: 4px;
+}
+
+.btn.save-form {
+  color: var(--white-color);
+  background-color: var(--light-blue-color);
+}
+
+.btn.save-form:hover {
+  background-color: var(--light-blue-color2);
+}
+
+.btn.save-form:active {
+  background: var(--dark-blue-color);
+}
